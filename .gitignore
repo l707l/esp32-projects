@@ -1,0 +1,27 @@
+# ESP32 build artifacts
+**/*.bin
+**/*.elf
+**/*.partitions.bin
+**/*.merged.bin
+**/build_opt.h
+**/file_opts
+.cache/
+.arduino15-builds/
+
+# Node
+**/node_modules/
+**/package-lock.json
+
+# Secrets (nunca subir tokens, llaves, etc.)
+.env
+*.token
+*credentials*
+auth/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
